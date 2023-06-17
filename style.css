@@ -1,0 +1,105 @@
+body{
+    border: none;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Inter;
+    margin-left: 35px;
+
+}
+
+.cards-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-container{
+    width: 620px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: start;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 500px;
+    height: 30px;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input-div{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.input-elements{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#name, #profession, #age{
+    width: 400px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: Inter;
+}
+
+p{
+    font-size: 20px;
+    margin: 35px 0 35px 0;
+    
+}
+
+.id-card{
+    width: 5%;
+}
+
+.name-card{
+    width: 35%;
+}
+
+.profession-card{
+    width: 35%;
+}
+
+.age-card{
+    width: 13%;
+}
+
+#userAddButton{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 50px;
+}
+.delete-button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 25px;
+    justify-content: center;
+}
+.noemployee{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.employee-container{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRS-F3-C1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p>New Employees</p>
+
+    <div class="form-container-div">
+        <form class="form-container">
+            <div class="input-div">
+                <div class="input-elements">
+                    <label for="name">Enter Name</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="input-elements">
+                    <label for="profession">Enter Profession</label>
+                    <input type="text" name="profession" id="profession" required>
+                </div>
+                <div class="input-elements">
+                    <label for="age">Enter Age</label>
+                    <input type="number" name="age" id="age" required>
+                </div>
+            </div>
+
+            <input type="button" value="Add User" onclick="addUserButtonClicked()" id="userAddButton">
+
+        </form>
+    </div>
+
+    <div id="message">
+
+    </div>
+
+    <p>Added Employees</p>
+
+    <div class="filter-container">
+        <div class="cards-list">
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
